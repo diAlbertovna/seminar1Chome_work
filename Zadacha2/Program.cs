@@ -3,12 +3,12 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-Console.Write("Enter number_1: " );
+Console.Write("Enter number_1: ");
 int number_1 = int.Parse(Console.ReadLine());
-Console.Write("Enter number_2: " );
+Console.Write("Enter number_2: ");
 int number_2 = int.Parse(Console.ReadLine());
-if(number_1 > number_2) Console.WriteLine($"{number_1}");
+if (number_1 > number_2) Console.WriteLine($"Max number {number_1}, Min number {number_2} ");
 else
 {
-    Console.Write($"{number_2}");
+    Console.Write($"Max number {number_2}, Min number {number_2} ");
 }
